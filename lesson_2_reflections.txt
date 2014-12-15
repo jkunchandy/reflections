@@ -3,3 +3,7 @@ Initializing a repository creates a .git directory contain a set of files which 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The working directory is where version of the commit files are placed when checked out. They are the original source files which where committed. The staging area is a file in the .git directory which keeps track of files that are in an intermediate stage. They have been prepared to be commited but are awaiting other files that also need final changes done before all are commited together. The repository refers to the whole .git directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area allows for an intermediate location in to which files that have been modified are ready to be committed can be kept until all files in the project that need to be changed are completed. Afterwards a single commit can be done to archive all the changes as one logical change.
+
