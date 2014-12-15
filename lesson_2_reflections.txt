@@ -7,3 +7,5 @@ The working directory is where version of the commit files are placed when check
 How can you use the staging area to make sure you have one commit per logical change?
 The staging area allows for an intermediate location in to which files that have been modified are ready to be committed can be kept until all files in the project that need to be changed are completed. Afterwards a single commit can be done to archive all the changes as one logical change.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If there is some creative idea that you would want to test out, a branch would allow for continued development on the mainstream project while allowing you play with your idea in parallel. Branches are also useful in that if the code in the branched version is found useful it can be integrated back into the main project.
