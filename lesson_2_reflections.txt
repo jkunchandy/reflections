@@ -15,3 +15,7 @@ The diagrams create a treelike structure which helps to trace the point of branc
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The merge of two branches combines the changes and results in one master structure. The merge results in a history which is sequenced according to the date of the changes and so may interweave between both branches when doing a git log.  The representation in the diagram helps to clearly show the 2 diverging paths of updates on the documents and also helps to visualize what parts of the branch will get merged and what parts wont get merged.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros- Reduces the headache of plowing thru files eyeing for changes and then updating (which would also greatly increase the likelihood of introducing errors). Is quick.
+Cons - May come across sections of differences which automatic merge is unable to complete.  In this case the user will have to manually complete the merging process.
