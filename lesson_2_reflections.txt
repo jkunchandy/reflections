@@ -9,3 +9,6 @@ The staging area allows for an intermediate location in to which files that have
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 If there is some creative idea that you would want to test out, a branch would allow for continued development on the mainstream project while allowing you play with your idea in parallel. Branches are also useful in that if the code in the branched version is found useful it can be integrated back into the main project.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams create a treelike structure which helps to trace the point of branching off from the master. This seperation is useful to later attempt to merge parts of the structure. 
