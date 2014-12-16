@@ -12,3 +12,6 @@ If there is some creative idea that you would want to test out, a branch would a
 
 How do the diagrams help you visualize the branch structure?
 The diagrams create a treelike structure which helps to trace the point of branching off from the master. This seperation is useful to later attempt to merge parts of the structure. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The merge of two branches combines the changes and results in one master structure. The merge results in a history which is sequenced according to the date of the changes and so may interweave between both branches when doing a git log.  The representation in the diagram helps to clearly show the 2 diverging paths of updates on the documents and also helps to visualize what parts of the branch will get merged and what parts wont get merged.
