@@ -3,3 +3,7 @@ Having access to a remote repository is useful when the user has to travel, does
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 The remote repository may be used as a shared repository and if others are pushing their versions onto the remote and subsequently having these changes automatically pulled in to your local repository could make things untenable if you are in the midst of a project which uses files or even lines that have been modified remotely.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forking makes a copy of an existing users gitHub repository onto another users gitHub repository. Cloning duplicates a repository between gitHub and the users local drive. Branching allows a user to fork his existing repository so as to continue development along a path which he may later want to merge into the master branch.
+Forking can be used when you want to duplicate someone elses repository but want to customize the contents of the files while still maintaning credit to the original author. Cloning can be used to make a local copy of your own remote repository on gitHub so that work can be done locally. 
