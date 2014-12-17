@@ -6,4 +6,7 @@ The remote repository may be used as a shared repository and if others are pushi
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forking makes a copy of an existing users gitHub repository onto another users gitHub repository. Cloning duplicates a repository between gitHub and the users local drive. Branching allows a user to fork his existing repository so as to continue development along a path which he may later want to merge into the master branch.
-Forking can be used when you want to duplicate someone elses repository but want to customize the contents of the files while still maintaning credit to the original author. Cloning can be used to make a local copy of your own remote repository on gitHub so that work can be done locally. 
+Forking can be used when you want to duplicate someone elses repository but want to customize the contents of the files while still maintaning credit to the original author. Cloning can be used to make a local copy of your own remote repository on gitHub so that work can be done locally.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Having a local copy of the remote branch allows the user to compare or merge his work with the local copy of the remote branch while being offline. Then later he can do a push to update the remote.
