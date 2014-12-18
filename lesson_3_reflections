@@ -10,3 +10,6 @@ Forking can be used when you want to duplicate someone elses repository but want
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Having a local copy of the remote branch allows the user to compare or merge his work with the local copy of the remote branch while being offline. Then later he can do a push to update the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Collaboration might involve maintaining directory structures containing copies of the different released versions of a project.  For a single user it will be easier to work on a project as it will involve just copying the latest release into a new directory and working from there. When it is time to save the completed project, it will involve checking all files with the prior release to ensure that only the expected changes were made. Have more than one user work on a project would become much more tedious as the users must agree on some protocol to ensure that their changes are in sync. It would be much easier to learn the collaboration philopsophy implemented in Git and GitHub and then consistently use it for years to come!
